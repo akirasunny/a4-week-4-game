@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+	background-image: url("../images/ep_naturalwhite.png");
+}
+
+.container {
+	width: 70%;
+	margin: auto;
+	background-color: #fff;
+	padding: 10px;
+	margin-bottom: 100px;
+}
+
+header,
+#instructions,
+#target,
+#panel-header,
+#totalscore {
+	box-shadow: 0 0 10px #aaa;
+	padding: 15px;
+	margin: 20px;
+}
+
+header {
+	text-align: center;
+	background-color: #fff;
+	color: #888;
+	background-image:url("../images/ep_naturalwhite.png");
+}
+
+#transbox {
+	background-color: #fff;
+	opacity: 0.4;
+	box-shadow: 0 0 15px #ccc;
+}
+
+h1 {
+	opacity: 1.0;
+	color: #000;
+}
+
+#instructions {
+	color: #888;
+	line-height: 150%;
+	background-color: #eee;
+}
+
+#target {
+	width: 45%;
+	float: left;
+	font-size: 25px;
+	line-height: 200%;
+	color: #666;
+}
+
+#score {
+	width: 45%;
+	float: right;
+	color: #666;
+	font-size: 20px;
+	padding: 10px;
+	margin: 20px;
+	box-shadow: 0 0 10px #aaa;
+}
+
+#target,
+#score {
+	height: 150px;
+}
+
+#crystals {
+	margin: auto;
+}
+
+.crystal {
+	width: 12%;
+}
+
+#panel-header {
+	background-color: #eee;
+	color: #888;
+	font-size: 25px;
+}
+
+#totalscore {
+	height: 200px;
+	font-size: 25px;
+	color: #888;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #aaa;
+	color: #666;
+	width: 100%;
+	padding: 25px;
+	text-align: center;
+	font-size: 14px;
+	border-top: 8px solid #ccc;
+}
